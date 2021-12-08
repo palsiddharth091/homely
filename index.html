@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homely.com</title>
+    <link rel="shortcut icon" type="image" href="home.png"/>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></head>
+  <body>
+    <nav class="navbar navbar-light bg-warning navbar-expand-lg">
+<a class="navbar-brand" href="https://www.airbnb.co.in/">
+  <img src="HomelyLogo.jpg" width="60%" height="70%" alt="">
+</a>
+ <div id="hd-btns">
+   <a href="index2.html"><button type="button" class=" btn btn-warning">Log in</button></a>
+    <a href="index3.html"><button type="button" class="btn btn-warning" style="float: right;" >Sign Up</button></a>
+   <button type="button" class="btn btn-warning" style="float: right;">Partnership</button>
+ </div>
+</nav>
+<div class="main-img">
+  <img src="image-removebg-preview (2).png" class="logo">
+  <div class="search-bar">
+    
+    <form class="form-inline" style="padding-right: 1rem;" >
+      <div class="dropdown" style="padding-right: 1rem;">
+        <select class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false" placeholder="Location" style="padding-right: 10rem;">
+          <option class="dropdown-item" value="Select Location">Select Location</option>
+          <option class="dropdown-item" value="Mumbai">Mumbai</option>
+          <option class="dropdown-item" value="Kolkata">Kolkata</option>
+          <option class="dropdown-item" value="Bangalore">Bangalore</option>
+          <option class="dropdown-item" value="Chennai">Chennai</option>
+          <option class="dropdown-item" value="Nagpur">Nagpur</option>
+        </select>
+      </div>
+      <input id="date-range" type="date"  min="2021-12-01" max="2022-06-08" class="form-control mr-sm-2" placeholder="Move-in Date" aria-label="Search">
+        <div class="dropdown">
+           <select class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" placeholder="Bedroom Kitchen">
+            <option class="dropdown-item" value="Bedroom Kitchen">Bedroom Kitchen</option>
+            <option class="dropdown-item" value="1 BHK">1 BHK</option>
+            <option class="dropdown-item" value="2 BHK">2 BHK</option>
+            <option class="dropdown-item" value="3 BHK">3 BHK</option>
+            <option class="dropdown-item" value="4 BHK">4 BHK</option>
+          </select>
+        </div>
+  <button class="my-2 my-sm-0 btn btn-light" id="search" type="submit" style="margin-left:1.25rem;">Search</button>
+    </form>
+
+  </div>
+</div>
+  </body>
+  <script src="index.js"></script>
+  </html>
